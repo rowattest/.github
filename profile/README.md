@@ -9,6 +9,7 @@ RowAttest runs an eight-stage isolation test against your staging Supabase proje
 - Proof runs against public Supabase starter kits: https://rowattest.com/proof (reports in rowattest/proof-runs)
 - Create a free account: https://app.rowattest.com/signup
 - Verify a report: https://rowattest.com/verify
+- Verify offline and gate CI on a report: https://github.com/rowattest/gate (rowattest-gate 0.1.0, one file, Node 20 or newer, MIT)
 - REST API: https://app.rowattest.com/api/v1 (keys from the API keys page in the app; description at https://app.rowattest.com/api/v1/openapi.json)
 - MCP server: https://rowattest.com/mcp, or `claude mcp add --transport http rowattest https://app.rowattest.com/mcp --header "Authorization: Bearer rak_your_key"`
 - For AI agents, the handshake to check an app's published attestation: https://rowattest.com/agents
